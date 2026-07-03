@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Duel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="asset/stylesheet/output.css">
+</head>
+
+<body>
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+
+  <div class="brand">
+    <div class="eyebrow">First to 30</div>
+    <h1>Dice Duel</h1>
+  </div>
+
+  <div class="row">
+    <div>
+      <span class="tag">Player 1</span>
+      <h2>00</h2>
+      <button onclick="roll('user1')" class="w-5/10 text-2xl">roll dice</button>
+      <div class="dice-stage">
+        <div class="dice-shadow">
+          <div class="dice">
+            <div class="face front">
+              <span class="pip p-e"></span>
+            </div>
+            <div class="face top">
+              <span class="pip p-a"></span><span class="pip p-i"></span>
+            </div>
+            <div class="face right">
+              <span class="pip p-a"></span><span class="pip p-e"></span><span class="pip p-i"></span>
+            </div>
+            <div class="face left">
+              <span class="pip p-a"></span><span class="pip p-c"></span>
+              <span class="pip p-g"></span><span class="pip p-i"></span>
+            </div>
+            <div class="face bottom">
+              <span class="pip p-a"></span><span class="pip p-c"></span>
+              <span class="pip p-e"></span>
+              <span class="pip p-g"></span><span class="pip p-i"></span>
+            </div>
+            <div class="face back">
+              <span class="pip p-a"></span><span class="pip p-c"></span>
+              <span class="pip p-d"></span><span class="pip p-f"></span>
+              <span class="pip p-g"></span><span class="pip p-i"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="tag">Player 2</span>
+      <h2>00</h2>
+      <button onclick="roll('user2')" class="w-5/10 text-2xl">roll dice</button>
+      <div class="dice-stage">
+        <div class="dice-shadow">
+          <div class="dice">
+            <div class="face front">
+              <span class="pip p-e"></span>
+            </div>
+            <div class="face top">
+              <span class="pip p-a"></span><span class="pip p-i"></span>
+            </div>
+            <div class="face right">
+              <span class="pip p-a"></span><span class="pip p-e"></span><span class="pip p-i"></span>
+            </div>
+            <div class="face left">
+              <span class="pip p-a"></span><span class="pip p-c"></span>
+              <span class="pip p-g"></span><span class="pip p-i"></span>
+            </div>
+            <div class="face bottom">
+              <span class="pip p-a"></span><span class="pip p-c"></span>
+              <span class="pip p-e"></span>
+              <span class="pip p-g"></span><span class="pip p-i"></span>
+            </div>
+            <div class="face back">
+              <span class="pip p-a"></span><span class="pip p-c"></span>
+              <span class="pip p-d"></span><span class="pip p-f"></span>
+              <span class="pip p-g"></span><span class="pip p-i"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="asset/javascript/script.js"></script>
+
+</html>
