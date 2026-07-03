@@ -19,6 +19,15 @@
 
 </div>
 
+## ✦ Preview
+
+<p align="center">
+  <img src="asset/S/s1.png" alt="Calculator Preview" width="400" />
+</p>
+
+---
+
+
 <br>
 
 ## 📖 About The Project
@@ -90,6 +99,8 @@ Dice/
 
 <div align="center">
 
-Made with ❤️ and a bit of CSS magic
+Made with ❤️ by **[Arshiya](https://github.com/arshiya7-dev)**
+
+⭐ Star this repo if you found it helpful!
 
 </div>
